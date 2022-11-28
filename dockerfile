@@ -1,4 +1,4 @@
-From tomcat
+From tomcat:7
 Maintainer Sonal
 ADD https://tomcat.apache.org/tomcat-7.0-doc/appdev/sample/sample.war /usr/local/tomcat/webapps
 CMD "catalina.sh" "run"
